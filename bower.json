@@ -1,0 +1,16 @@
+{
+  "name": "jobfinder",
+  "description": "Job finding app",
+  "main": "index.js",
+  "authors": [
+    "Craig Watson"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
+}
