@@ -15,7 +15,7 @@ describe('get jobs', function() {
     var jobs;
 
     before(function(done) {
-        jobsData.connectDB('mongodb://localhost/jobfinderzzz')
+        jobsData.connectDB('mongodb://localhostasdfasdf/jobfinder')
             .then(resetJobs)
             .then(jobsData.seedJobs)
             .then(jobsData.findJobs)
